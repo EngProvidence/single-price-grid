@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+        .main{
+            border-bottom-left-radius:0px!important;
+            border-bottom-right-radius:0px!important;
+
+        }
+        .month{font-size: small;
+            color: rgb(185, 180, 180);
+        }
+        .item{border-bottom-left-radius: 10px;
+        padding: 15px;}
+        .item2{border-bottom-right-radius: 10px;
+        padding: 15px; }
+        .all{width: 60%;}
+     @media only screen and (max-width:500px) {
+.all{width:90%;}
+.item{border-bottom-left-radius: 0px;}
+ .item2{border-bottom-left-radius: 10px; }       
+     }   
+     @media screen and (min-width:501px) and (max-width:950px) {
+.all{width:75%;}
+.item{border-bottom-left-radius: 0px;}
+ .item2{border-bottom-left-radius: 10px; }       
+     }     
+    </style>
+</head>
+
+<body style="background-color:gainsboro;">
+    <div class="container ">
+        <div class="row mx-auto shadow-5 mt-5 mb-5 all" >
+            <div class="main p-5 col-12 shadow rounded-2" style="background-color:whitesmoke ;">
+                <h4 style="color: hsl(179, 62%, 43%)">Join our community</h4>
+                <p style="color:  hsl(71, 73%, 54%);"> 30-day, hassle-free money back guarantee </p>
+                <p class="text-muted"> Gain access to our full library of tutorials along with expert code reviews.
+                    Perfect for any developers who are serious about honing their skills.
+                </p>
+            </div>
+        
+                <div class="col-lg-6 col-sm-12 p-5 item " style="background-color:hsl(179, 62%, 43%);
+                 color: lightgray;">
+
+                    <h5 style="color: hsl(177, 24%, 82%)"> Monthly Subscription </h5>
+                    <p> <h3> $29 <span class="month"> per month</span></h3> Full access for less than $1 a day</p>
+                    <input type="button" class="form-control fw-bold"
+                        style="background-color:hsl(71, 73%, 54%); color: white;" value=" Sign Up">
+                </div>
+                <div class="col-lg-6 col-sm-12 item2" style="background-color: hsl(169, 96%, 63%);
+                color: aliceblue;">
+
+                    <h4 style="color: hsl(180, 43%, 93%)"> Why Us </h4>
+                    <p>Tutorials by industry experts <br> Peer & expert code review <br>
+                        Coding exercises <br>
+                        Access to our GitHub repos <br> Community forum <br> Flashcard decks <br> New videos every week</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
